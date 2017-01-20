@@ -10,11 +10,11 @@ securityGroupName = getAttr('securityGroupName')
 privateIp = getAttr('privateIp')
 publicIp = getAttr('publicIp')
 
-describe ec2(instanceId) do
+describe ec2(ENV['instanceId']) do
   it { should exist }
   it { should be_running }
   it { should have_tag('Name').value(instanceNameTag) }
-  its(:instance_id) { should eq instanceId }
+  its(:instance_id) { should eq ENV['instanceId'] }
   its(:image_id) { should eq imageId }
   its(:public_ip_address) { should eq publicIp }
   its(:private_ip_address) { should eq privateIp }
