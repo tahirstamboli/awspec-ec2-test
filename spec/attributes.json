@@ -1,0 +1,11 @@
+{
+	"instanceId" : "i-01fbc3d9871181687",
+	"imageId" : "ami-30e65350",
+	"instanceNameTag" : "TestNow_TST",
+	"vpcId" : "vpc-c98a75ac",
+	"subnetId" : "subnet-7b010f3d",
+	"securityGroupId" : "sg-b004d8c8",
+	"securityGroupName" : "launch-wizard-109",
+	"privateIp" : "172.31.12.62",
+	"publicIp" : "35.167.195.204"
+}
