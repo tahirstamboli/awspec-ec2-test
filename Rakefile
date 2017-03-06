@@ -1,5 +1,28 @@
+require 'rake'
 require 'rspec/core/rake_task'
-RSpec::Core::RakeTask.new(:spec) do |t|
-  t.rspec_opts = '--format html --out reports/awspec_results.html --format json --out reports/awspec_results.json'
-end
+
+task :spec    => 'spec:all'
 task :default => :spec
+
+namespace :spec do
+  targets = []
+  Dir.glob('./spec/*').each do |dir|
+    next unless File.directory?(dir)
+    target = File.basename(dir)
+    target = "_#{target}" if target == "default"
+    targets << target
+  end
+
+  task :all     => targets
+  task :default => :all
+
+  targets.each do |target|
+    original_target = target == "_default" ? target[1..-1] : target
+    desc "Run serverspec tests to #{original_target}"
+    RSpec::Core::RakeTask.new(target.to_sym) do |t|
+      ENV['TARGET_HOST'] = original_target
+      t.pattern = "spec/#{original_target}/*_spec.rb"
+      t.rspec_opts = ["--format", "html","--out", "reports/aws_#{original_target}.html", "--format", "json", "--out", "reports/aws_#{original_target}.json"]
+    end
+  end
+end
