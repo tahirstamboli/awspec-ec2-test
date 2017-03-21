@@ -1,11 +1,10 @@
 {
-	"instanceId" : "i-01fbc3d9871181687",
-	"imageId" : "ami-30e65350",
-	"instanceNameTag" : "TestNow_TST",
-	"vpcId" : "vpc-c98a75ac",
-	"subnetId" : "subnet-7b010f3d",
+	"instanceId" : "i-000e8498474ac7108",
+	"imageId" : "ami-6edd3078",
+	"instanceNameTag" : "opis-control-env-deploynow",
+	"vpcId" : "vpc-8a3c6cec",
+	"subnetId" : "subnet-79497e22",
 	"securityGroupId" : "sg-b004d8c8",
 	"securityGroupName" : "launch-wizard-109",
-	"privateIp" : "172.31.12.62",
-	"publicIp" : "35.167.195.204"
+	"privateIp" : "10.42.32.165"
 }
