@@ -1,11 +1,11 @@
 {
-	"instanceId" : "i-01fbc3d9871181687",
-	"imageId" : "ami-30e65350",
-	"instanceNameTag" : "TestNow_TST",
-	"vpcId" : "vpc-c98a75ac",
-	"subnetId" : "subnet-7b010f3d",
-	"securityGroupId" : "sg-b004d8c8",
-	"securityGroupName" : "launch-wizard-109",
-	"privateIp" : "172.31.12.62",
-	"publicIp" : "35.167.195.204"
+	"instanceId" : "i-07b8999b5f8370fe6",
+	"imageId" : "ami-cd0f5cb6",
+	"instanceNameTag" : "REAN-TEST-Nessus",
+	"vpcId" : "vpc-ab6dd4d2",
+	"subnetId" : "subnet-b8fb4ae2",
+	"securityGroupId" : "sg-339d6f40",
+	"securityGroupName" : "launch-wizard-6",
+	"privateIp" : "20.1.0.54",
+	"publicIp" : "52.202.142.64"
 }
