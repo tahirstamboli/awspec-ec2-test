@@ -1,4 +1,4 @@
 #!/bin/bash
 
 sudo gem install awspec
-instanceId='i-0c2abe34da04' rake spec:ec2
+instanceId='i-07b8999b5f8370fe6' rake spec:ec2
