@@ -1,11 +1,11 @@
 {
-	"instanceId" : "i-07b8999b5f8370fe6",
-	"imageId" : "ami-cd0f5cb6",
+	"instanceId" : "i-044b12c5c7b7002e8",
+	"imageId" : "ami-4a637f2b",
 	"instanceNameTag" : "REAN-TEST-Nessus",
-	"vpcId" : "vpc-ab6dd4d2",
-	"subnetId" : "subnet-b8fb4ae2",
-	"securityGroupId" : "sg-339d6f40",
+	"vpcId" : "vpc-c98a75ac",
+	"subnetId" : "subnet-8015dce5",
+	"securityGroupId" : "sg-72fc5802",
 	"securityGroupName" : "launch-wizard-6",
-	"privateIp" : "20.1.0.54",
-	"publicIp" : "52.202.142.64"
+	"privateIp" : "172.31.37.42",
+	"publicIp" : "18.236.178.182"
 }
