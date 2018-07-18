@@ -1,11 +1,11 @@
 {
-	"instanceId" : "i-044b12c5c7b7002e8",
-	"imageId" : "ami-4a637f2b",
-	"instanceNameTag" : "REAN-TEST-Nessus",
-	"vpcId" : "vpc-c98a75ac",
-	"subnetId" : "subnet-8015dce5",
-	"securityGroupId" : "sg-72fc5802",
-	"securityGroupName" : "launch-wizard-6",
-	"privateIp" : "172.31.37.42",
-	"publicIp" : "18.236.178.182"
+	"instanceId" : "i-0bc4c70dab1fe1c01",
+	"imageId" : "ami-4f61f02e",
+	"instanceNameTag" : "0c0707f3ebea468f9091ab6ef92da6b5_Chrome_60_1",
+	"vpcId" : "vpc-96cf98f3",
+	"subnetId" : "subnet-85a956e1",
+	"securityGroupId" : "sg-0a6ed66e",
+	"securityGroupName" : "security_group",
+	"privateIp" : "10.0.36.31",
+	"publicIp" : "52.222.97.116"
 }
