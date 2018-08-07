@@ -1,11 +1,11 @@
 {
-	"instanceId" : "i-0bc4c70dab1fe1c01",
-	"imageId" : "ami-4f61f02e",
-	"instanceNameTag" : "0c0707f3ebea468f9091ab6ef92da6b5_Chrome_60_1",
-	"vpcId" : "vpc-96cf98f3",
-	"subnetId" : "subnet-85a956e1",
-	"securityGroupId" : "sg-0a6ed66e",
-	"securityGroupName" : "security_group",
-	"privateIp" : "10.0.36.31",
-	"publicIp" : "52.61.33.109"
+	"instanceId" : "i-00b4379ae4cdbcd43",
+	"imageId" : "ami-eb3caf8a",
+	"instanceNameTag" : "Bastion-host",
+	"vpcId" : "vpc-49abf42c",
+	"subnetId" : "subnet-a3e414d5",
+	"securityGroupId" : "sg-e3d84b87",
+	"securityGroupName" : "terraform-20180806174228108700000001",
+	"privateIp" : "10.0.1.177",
+	"publicIp" : "52.61.171.165"
 }
